@@ -9,7 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'jquery-ui-rails'
-
+gem 'bcrypt-ruby'
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug', platform: :mri

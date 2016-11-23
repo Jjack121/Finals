@@ -7,6 +7,7 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails5 for more book information.
 #---
 class LineItem < ApplicationRecord
+  belongs_to :order 
   belongs_to :product
   belongs_to :cart
 

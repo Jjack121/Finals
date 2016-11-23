@@ -50,7 +50,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 }
 
 #columns {
-  background: #141;
+  background: blue;
   display: flex;
 
   #main {
@@ -62,7 +62,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 //
   #side {
     padding: 1em 2em;
-    background: #141;
+    background: yellow;
 
     form, div {
       display: inline;
@@ -74,7 +74,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
     #cart {
       font-size: smaller;
-      color:     white;
+      color:     black;
 
       table {
         border-top:    1px dotted #595;
@@ -114,3 +114,35 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
     display: none;
   }
 }
+.depot_form {
+  fieldset {
+    background: efe;
+    
+    legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+    }
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+  select, textarea, input {
+    margin-left: 4em;
+  }
+  .submit {
+    margin-left: 4em;
+  }
+  br {
+    display: none;
+      }
+    }
+}  
+ 
